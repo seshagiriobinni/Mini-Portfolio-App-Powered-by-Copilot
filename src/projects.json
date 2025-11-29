@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio site built with React and Copilot.",
+    "url": "https://example.com/portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Task Manager App",
+    "description": "A simple task manager with validation and theming.",
+    "url": "https://example.com/task-manager"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "A dashboard showing weather data from a public API.",
+    "url": "https://example.com/weather"
+  },
+  {
+    "id": 4,
+    "title": "Blog Platform",
+    "description": "A blogging platform with user authentication and markdown support.",
+    "url": "https://example.com/blog-platform"
+  }
+]

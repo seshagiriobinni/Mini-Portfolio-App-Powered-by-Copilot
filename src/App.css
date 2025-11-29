@@ -1,0 +1,118 @@
+/* Mini Portfolio App - Responsive Styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+}
+
+.portfolio-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.nav-bar button {
+  background: #fff;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-bar button.active,
+.nav-bar button:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(16,42,67,0.07);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-gallery ul {
+  list-style: none;
+  padding: 0;
+}
+.project-item {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e6e9ef;
+  padding-bottom: 1rem;
+}
+.project-item:last-child {
+  border-bottom: none;
+}
+.project-item h3 {
+  margin: 0 0 0.5rem 0;
+}
+.project-item a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #dfe6ef;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.contact-form button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.form-error {
+  color: #b91c1c;
+  background: #fff5f5;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+.form-success {
+  color: #2563eb;
+  background: #e0f2fe;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  margin-top: 0.7rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .portfolio-app {
+    padding: 0.5rem;
+  }
+  section {
+    padding: 1rem;
+  }
+  .nav-bar button {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
